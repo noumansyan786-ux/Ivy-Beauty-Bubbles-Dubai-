@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ivy Beauty & Bubbles Dubai | Luxury Hair Salon Palm Jumeirah</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            ivy: {
+              gold: '#C5A880',
+              goldLight: '#E8D8C3',
+              goldDark: '#9F7F53',
+              dark: '#121212',
+              cardDark: '#1A1817',
+              ivory: '#FAF7F2',
+              champagne: '#F4ECE1',
+              green: '#2A3C2E',
+              leaf: '#3A5440'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Luxury Polish & Glassmorphism */
+    .glass-gold {
+      background: rgba(250, 247, 242, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(197, 168, 128, 0.3);
+    }
+    .dark .glass-gold {
+      background: rgba(18, 18, 18, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(197, 168, 128, 0.25);
+    }
+    .gold-gradient {
+      background: linear-gradient(135deg, #d8bc97 0%, #b89868 50%, #dfcbb1 100%);
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #c5a880 0%, #ecd7be 50%, #9f7f53 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .shimmer-gold {
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 3s infinite;
+    }
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #121212;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #c5a880;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+
+<body class="bg-[#FAF7F2] text-neutral-800 font-sans antialiased selection:bg-[#C5A880] selection:text-white">
+
+  <header class="sticky top-0 z-40 w-full transition-all duration-300" id="mainHeader">
+    <!-- Promotional Top Ribbon -->
+    <div class="bg-[#181615] text-[#E8D8C3] text-xs py-2 px-4 border-b border-[#C5A880]/20">
+      <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+        <div class="flex items-center space-x-2">
+          <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="font-medium tracking-wide">Palm West Beach • Open Daily until 12:00 AM Midnight</span>
+          <span class="hidden md:inline text-[#C5A880]/40">|</span>
+          <span class="hidden md:inline text-neutral-300">Complimentary Chilled Bubbles & Artisan Coffee with every service</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://wa.me/971527434416" target="_blank" class="hover:text-white transition flex items-center gap-1.5 font-medium">
+            <i class="fab fa-whatsapp text-emerald-400 text-sm"></i>
+            <span>+971 52 743 4416</span>
+          </a>
+          <span class="text-[#C5A880]/40">|</span>
+          <div class="flex items-center text-amber-300 gap-1 font-semibold">
+            <i class="fas fa-star text-xs"></i>
+            <span class="text-white">4.8</span>
+            <span class="text-neutral-400 text-[11px] font-normal">(2,990+ Google Reviews)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <nav class="glass-gold border-b border-[#C5A880]/20 px-4 md:px-8 py-3.5 transition-all duration-300">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-full border border-[#C5A880] flex items-center justify-center bg-white shadow-sm transition group-hover:scale-105">
+            <!-- Ivy Leaf Crest SVG -->
+            <svg class="w-6 h-6 text-[#C5A880]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m0-18c-3 3-7 5-7 10 0 4.5 3.5 7 7 8m0-18c3 3 7 5 7 10 0 4.5-3.5 7-7 8"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13c3-1 6-4 7-8m0 8c3 1 6 4 7 8"/>
+            </svg>
+          </div>
+          <div>
+            <span class="font-serif text-2xl md:text-2xl tracking-[0.2em] font-semibold text-neutral-900 uppercase block leading-none">IVY</span>
+            <span class="text-[9px] tracking-[0.3em] font-medium text-[#9F7F53] uppercase block mt-1">Beauty & Bubbles • Dubai</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden lg:flex items-center space-x-8 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-700">
+          <a href="#signature" class="hover:text-[#9F7F53] transition py-1">Signature Package</a>
+          <a href="#services" class="hover:text-[#9F7F53] transition py-1">Services & Menu</a>
+          <a href="#transformations" class="hover:text-[#9F7F53] transition py-1">Transformations</a>
+          <a href="#reviews" class="hover:text-[#9F7F53] transition py-1">Guest Reviews</a>
+          <a href="#locations" class="hover:text-[#9F7F53] transition py-1">Locations</a>
+        </div>
+
+        <!-- Action CTA Buttons -->
+        <div class="flex items-center space-x-3">
+          <button onclick="openBookingModal()" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold text-neutral-900 border border-[#C5A880] hover:bg-[#FAF7F2] transition shadow-sm hover:shadow">
+            Book Appointment
+          </button>
+          
+          <a href="https://wa.me/971527434416?text=Hello%20Ivy%20Beauty%20%26%20Bubbles%2C%20I%20would%20like%20to%20inquire%20about%20a%20hair%20appointment." target="_blank" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold text-white bg-gradient-to-r from-[#C5A880] to-[#9F7F53] hover:opacity-95 shadow-md hover:scale-[1.02] transition">
+            <i class="fab fa-whatsapp text-sm"></i>
+            <span>WhatsApp Us</span>
+          </a>
+
+          <!-- Mobile Hamburger -->
+          <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-neutral-800 rounded-lg hover:bg-neutral-100 focus:outline-none">
+            <i class="fas fa-bars text-lg" id="menuIcon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div id="mobileMenu" class="hidden lg:hidden pt-4 pb-3 border-t border-[#C5A880]/20 mt-3 space-y-2">
+        <a href="#signature" onclick="toggleMobileMenu()" class="block px-3 py-2 text-sm font-medium text-neutral-800 hover:bg-[#FAF7F2] rounded-lg">Signature Offer (599 AED)</a>
+        <a href="#services" onclick="toggleMobileMenu()" class="block px-3 py-2 text-sm font-medium text-neutral-800 hover:bg-[#FAF7F2] rounded-lg">Services Menu</a>
+        <a href="#transformations" onclick="toggleMobileMenu()" class="block px-3 py-2 text-sm font-medium text-neutral-800 hover:bg-[#FAF7F2] rounded-lg">Makeovers & Results</a>
+        <a href="#reviews" onclick="toggleMobileMenu()" class="block px-3 py-2 text-sm font-medium text-neutral-800 hover:bg-[#FAF7F2] rounded-lg">Client Reviews</a>
+        <a href="#locations" onclick="toggleMobileMenu()" class="block px-3 py-2 text-sm font-medium text-neutral-800 hover:bg-[#FAF7F2] rounded-lg">3 Dubai Locations</a>
+        <button onclick="toggleMobileMenu(); openBookingModal();" class="w-full text-left px-3 py-2 text-sm font-semibold text-[#9F7F53] rounded-lg bg-[#FAF7F2]">Online Booking Form</button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#141211] text-white">
+    <!-- Ambient Background Imagery & Overlays -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=80" 
+        alt="Ivy Luxury Salon Interior Dubai" 
+        class="w-full h-full object-cover object-center opacity-30 transform scale-105 transition duration-1000"
+        onerror="this.src='https://placehold.co/1920x1080/1a1817/c5a880?text=Ivy+Beauty+%26+Bubbles+Dubai'"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#141211] via-[#141211]/60 to-black/70"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(197,168,128,0.18),transparent_50%)]"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <!-- High-rated Google badge -->
+      <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-[#C5A880]/40 text-xs md:text-sm text-[#FAF7F2] mb-8 shadow-lg">
+        <span class="flex items-center text-amber-400 gap-0.5">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </span>
+        <span class="font-semibold text-white">4.8 / 5.0 Rating</span>
+        <span class="text-white/40">•</span>
+        <span class="text-neutral-200">2,996+ Verified Google Reviews</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-[#C5A880]"></span>
+        <span class="text-[#E8D8C3] font-medium hidden sm:inline">Palm West Beach</span>
+      </div>
+
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-normal tracking-wide text-white leading-tight mb-6">
+        Dubai’s Ultimate <br class="hidden sm:inline" />
+        <span class="italic font-light gold-gradient-text font-serif">Hair Transformation</span> & Bubbles Experience
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-base sm:text-lg text-neutral-300 font-light leading-relaxed mb-10">
+        Award-winning master colorists specializing in seamless Balayage, bespoke Blondes, rich Brunette glosses, and Hollywood blowouts — complete with chilled bubbles in beachfront luxury.
+      </p>
+
+      <!-- Action buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#signature" class="w-full sm:w-auto px-8 py-4 rounded-full font-semibold text-xs tracking-[0.2em] uppercase bg-gradient-to-r from-[#C5A880] to-[#9F7F53] text-neutral-900 hover:brightness-110 shadow-lg shadow-[#C5A880]/20 transition transform hover:-translate-y-0.5">
+          Explore 599 AED Bestseller
+        </a>
+        <button onclick="openBookingModal()" class="w-full sm:w-auto px-8 py-4 rounded-full font-semibold text-xs tracking-[0.2em] uppercase border border-[#C5A880] text-white hover:bg-white/10 backdrop-blur-sm transition transform hover:-translate-y-0.5">
+          Schedule Consultation
+        </button>
+      </div>
+
+      <!-- Quick Trust Indicators -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-10 border-t border-white/10 text-left">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full bg-[#C5A880]/20 flex items-center justify-center text-[#C5A880]">
+            <i class="fas fa-gem text-lg"></i>
+          </div>
+          <div>
+            <h4 class="text-xs uppercase tracking-wider text-neutral-400">Atmosphere</h4>
+            <p class="text-sm font-semibold text-white">5-Star Luxury Resorts</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full bg-[#C5A880]/20 flex items-center justify-center text-[#C5A880]">
+            <i class="fas fa-wine-glass-alt text-lg"></i>
+          </div>
+          <div>
+            <h4 class="text-xs uppercase tracking-wider text-neutral-400">Complimentary</h4>
+            <p class="text-sm font-semibold text-white">Bubbles & Artisanal Brews</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full bg-[#C5A880]/20 flex items-center justify-center text-[#C5A880]">
+            <i class="fas fa-user-check text-lg"></i>
+          </div>
+          <div>
+            <h4 class="text-xs uppercase tracking-wider text-neutral-400">Expert Team</h4>
+            <p class="text-sm font-semibold text-white">Master Color Technicians</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full bg-[#C5A880]/20 flex items-center justify-center text-[#C5A880]">
+            <i class="fas fa-clock text-lg"></i>
+          </div>
+          <div>
+            <h4 class="text-xs uppercase tracking-wider text-neutral-400">Night Concierge</h4>
+            <p class="text-sm font-semibold text-white">Palm Open Till 12 AM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="signature" class="py-20 bg-[#FAF7F2] relative overflow-hidden">
+    <!-- Subtle Background Decors -->
+    <div class="absolute -right-24 -top-24 w-96 h-96 bg-[#C5A880]/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -left-24 -bottom-24 w-96 h-96 bg-[#3A5440]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-[#9F7F53] uppercase tracking-[0.25em] text-xs font-semibold">Special Highlight</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-neutral-900 mt-2 font-normal">
+          The Iconic 599 AED Bestseller Package
+        </h2>
+        <div class="w-16 h-0.5 bg-[#C5A880] mx-auto mt-4 mb-4"></div>
+        <p class="text-neutral-600 text-sm sm:text-base">
+          Our most coveted all-in-one signature transformation package. Curated to give you runway-ready radiance without hidden add-on costs.
+        </p>
+      </div>
+
+      <!-- Hero Package Card -->
+      <div class="bg-gradient-to-br from-[#1C1A19] to-[#121110] text-white rounded-3xl p-6 sm:p-10 md:p-12 border border-[#C5A880]/30 shadow-2xl relative overflow-hidden">
+        <!-- Floating Ribbon -->
+        <div class="absolute top-6 right-6 hidden sm:block">
+          <span class="inline-block bg-[#C5A880] text-neutral-900 text-xs uppercase font-bold tracking-widest px-4 py-1.5 rounded-full shadow-md">
+            Most Popular Experience
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center space-x-2 text-[#C5A880] text-xs uppercase tracking-widest font-semibold">
+              <i class="fas fa-crown"></i>
+              <span>Complete Royal Transformation</span>
+            </div>
+
+            <div class="flex items-baseline gap-3">
+              <span class="font-serif text-5xl sm:text-6xl text-[#E8D8C3] font-bold">599</span>
+              <span class="text-2xl font-serif text-[#C5A880]">AED</span>
+              <span class="text-sm line-through text-neutral-500 ml-2">Regular 1,200 AED</span>
+            </div>
+
+            <p class="text-neutral-300 text-sm leading-relaxed">
+              Experience total hair revitalization crafted by master colorists Abdul, Sihan, and team. Includes comprehensive color transformation, deep restorative care, tailored haircut, and our signature red-carpet Hollywood styling.
+            </p>
+
+            <!-- Package Inclusions List -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="flex items-start space-x-3 bg-white/5 p-3 rounded-xl border border-white/5">
+                <i class="fas fa-check-circle text-[#C5A880] mt-1"></i>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Full Hair Color / Balayage Refresh</h4>
+                  <p class="text-xs text-neutral-400">Custom tailored tones & luminous dimension</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3 bg-white/5 p-3 rounded-xl border border-white/5">
+                <i class="fas fa-check-circle text-[#C5A880] mt-1"></i>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Deep Restorative Hair Treatment</h4>
+                  <p class="text-xs text-neutral-400">Intense hydration, keratin seal & gloss therapy</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3 bg-white/5 p-3 rounded-xl border border-white/5">
+                <i class="fas fa-check-circle text-[#C5A880] mt-1"></i>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Designer Haircut & Reshaping</h4>
+                  <p class="text-xs text-neutral-400">Precision cut suited to your facial profile</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3 bg-white/5 p-3 rounded-xl border border-white/5">
+                <i class="fas fa-check-circle text-[#C5A880] mt-1"></i>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Hollywood Blow Dry & Styling</h4>
+                  <p class="text-xs text-neutral-400">Effortless bouncy waves or mirror-shine sleek</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Booking buttons -->
+            <div class="pt-4 flex flex-col sm:flex-row gap-4">
+              <a 
+                href="https://wa.me/971527434416?text=Hi%20Ivy%20Beauty%20%26%20Bubbles%21%20I%20would%20like%20to%20reserve%20the%20599%20AED%20Bestseller%20Package%20(Coloring%20%2B%20Treatment%20%2B%20Haircut%20%2B%20Blowdry)."
+                target="_blank"
+                class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-semibold text-xs uppercase tracking-widest transition shadow-lg hover:shadow-emerald-500/25">
+                <i class="fab fa-whatsapp text-base"></i>
+                <span>Claim 599 AED Package on WhatsApp</span>
+              </a>
+
+              <button 
+                onclick="quickSelectPackage('599 AED Bestseller Package')"
+                class="inline-flex items-center justify-center px-6 py-4 rounded-full border border-[#C5A880] text-[#E8D8C3] hover:bg-white/5 font-semibold text-xs uppercase tracking-widest transition">
+                Reserve Online Slot
+              </button>
+            </div>
+          </div>
+
+          <!-- Package Visual Card -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-[#C5A880]/30 aspect-[4/5]">
+              <img 
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80" 
+                alt="Hair Makeover Result Ivy Beauty"
+                class="w-full h-full object-cover"
+                onerror="this.src='https://placehold.co/800x1000/252220/c5a880?text=Ivy+Transformations'"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20"></div>
+              
+              <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-black/60 backdrop-blur-md border border-white/10">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-xs uppercase text-[#C5A880] tracking-wider font-semibold">Includes</p>
+                    <p class="text-sm font-medium text-white">Chilled Bubbles & Cappuccino</p>
+                  </div>
+                  <span class="text-xs bg-[#C5A880]/30 text-[#FAF7F2] px-3 py-1 rounded-full">Available at all 3 branches</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-[#9F7F53] uppercase tracking-[0.25em] text-xs font-semibold">Luxury Hairdressing</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-neutral-900 mt-2 font-normal">Services & Bespoke Menu</h2>
+        <div class="w-16 h-0.5 bg-[#C5A880] mx-auto mt-4 mb-4"></div>
+        <p class="text-neutral-600 text-sm sm:text-base">
+          Every hair appointment includes an in-depth shade consultation, scalp diagnosis, and our signature drinks menu.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 md:gap-3 mb-12" id="serviceTabs">
+        <button onclick="filterServices('all')" class="tab-btn active px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold transition border border-[#C5A880] bg-[#C5A880] text-neutral-900 shadow-sm" data-category="all">
+          All Services
+        </button>
+        <button onclick="filterServices('color')" class="tab-btn px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold transition border border-neutral-300 text-neutral-600 hover:border-[#C5A880]" data-category="color">
+          Balayage & Color
+        </button>
+        <button onclick="filterServices('styling')" class="tab-btn px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold transition border border-neutral-300 text-neutral-600 hover:border-[#C5A880]" data-category="styling">
+          Precision Cuts & Styling
+        </button>
+        <button onclick="filterServices('treatment')" class="tab-btn px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold transition border border-neutral-300 text-neutral-600 hover:border-[#C5A880]" data-category="treatment">
+          Hair Spa & Treatments
+        </button>
+        <button onclick="filterServices('packages')" class="tab-btn px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold transition border border-neutral-300 text-neutral-600 hover:border-[#C5A880]" data-category="packages">
+          VIP Bundles
+        </button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="servicesGrid">
+        
+        <!-- Item 1: Balayage -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="color">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Color Signature</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">From 750 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Custom Balayage & French Gloss</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Hand-painted seamless highlights customized for your skin tone. Includes gloss toner, root melt, and bond-building protection.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~3 - 3.5 hrs</span>
+            <button onclick="bookSpecificService('Custom Balayage & French Gloss', '750 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 2: Blonde Transformation -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="color">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Specialist</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">From 650 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Nordic Blonde & Platinum Baby Lights</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Zero brassiness promise. Ultra-fine micro-foils designed for luminous, long-lasting blondes with anti-breakage plex treatment.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~3 hrs</span>
+            <button onclick="bookSpecificService('Nordic Blonde & Platinum Baby Lights', '650 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 3: Brunette Makeover -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="color">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Color</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">From 490 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Honey Brown & Mocha Gloss Tint</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Rich multidimensional brunette coloring with deep conditioning gloss. Restores dark hair to radiant, reflective shine.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~2 hrs</span>
+            <button onclick="bookSpecificService('Honey Brown & Mocha Gloss Tint', '490 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 4: Precision Cut -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="styling">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Cuts</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">280 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Senior Stylist Haircut & Blowout</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Face-framing layers, blunt bobs, or texture transformations tailored to hair density, finished with a bouncy blowout.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~60 mins</span>
+            <button onclick="bookSpecificService('Senior Stylist Haircut & Blowout', '280 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 5: Hollywood Blowout -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="styling">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Event Styling</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">220 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Hollywood Waves & Bubbles</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Glamorous, high-volume red-carpet waves designed for Dubai nights, beach clubs, and yacht parties. Includes complimentary glass of bubbles.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~45 mins</span>
+            <button onclick="bookSpecificService('Hollywood Waves & Bubbles', '220 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 6: Caviar / Keratin Treatment -->
+        <div class="service-card rounded-2xl p-6 bg-[#FAF7F2] border border-[#C5A880]/20 flex flex-col justify-between hover:shadow-xl hover:border-[#C5A880] transition group" data-cat="treatment">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#9F7F53] bg-[#C5A880]/15 px-3 py-1 rounded-full">Restoration</span>
+              <span class="font-serif text-xl font-bold text-neutral-900">From 450 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-neutral-900 group-hover:text-[#9F7F53] transition">Caviar Infusion & Botox Gloss Therapy</h3>
+            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+              Deep cellular fiber repair to reverse humidity frizz, sun damage, and saltwater dryness common in Dubai climates.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-500"><i class="far fa-clock mr-1"></i> ~75 mins</span>
+            <button onclick="bookSpecificService('Caviar Infusion & Botox Gloss Therapy', '450 AED')" class="text-xs uppercase font-semibold text-[#9F7F53] hover:text-neutral-900 flex items-center gap-1 group-hover:translate-x-1 transition">
+              Book Service <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 7: Bestseller 599 AED -->
+        <div class="service-card rounded-2xl p-6 bg-[#1f1d1b] text-white border-2 border-[#C5A880] flex flex-col justify-between shadow-xl relative overflow-hidden group" data-cat="packages">
+          <div class="absolute top-0 right-0 bg-[#C5A880] text-neutral-900 text-[10px] font-bold px-3 py-1 uppercase rounded-bl-lg">
+            Best Value
+          </div>
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs uppercase tracking-widest font-semibold text-[#C5A880]">Complete Package</span>
+              <span class="font-serif text-xl font-bold text-[#E8D8C3]">599 AED</span>
+            </div>
+            <h3 class="font-serif text-2xl text-white group-hover:text-[#C5A880] transition">The Ivy 599 Transformation</h3>
+            <p class="text-xs text-neutral-300 mt-2 leading-relaxed">
+              Coloring + Luxury Treatment + Precision Cut + Hollywood Blow Dry + Complimentary Signature Beverages.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-700 flex items-center justify-between">
+            <span class="text-[11px] text-neutral-400"><i class="far fa-clock mr-1"></i> All-In-One</span>
+            <button onclick="quickSelectPackage('599 AED Bestseller Package')" class="text-xs uppercase font-semibold text-[#C5A880] hover:text-white flex items-center gap-1 transition">
+              Book Now <i class="fas fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="transformations" class="py-20 bg-[#161413] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-[#C5A880] uppercase tracking-[0.25em] text-xs font-semibold">Real Client Results</span>
+          <h2 class="font-serif text-3xl sm:text-5xl text-white mt-2 font-normal">Transformations & Hair Artistry</h2>
+          <div class="w-16 h-0.5 bg-[#C5A880] mt-4"></div>
+        </div>
+        <div class="mt-4 md:mt-0 flex items-center gap-3">
+          <a href="https://instagram.com/ivybeautyandbubbles_dubai" target="_blank" class="text-xs font-semibold uppercase tracking-wider text-[#C5A880] hover:underline flex items-center gap-1.5">
+            <i class="fab fa-instagram text-base"></i>
+            <span>Follow @ivybeautyandbubbles_dubai (64.8K)</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Before/After & Portfolio Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Showcase 1: Seamless Blonde -->
+        <div class="group relative rounded-2xl overflow-hidden bg-neutral-900 border border-white/10 shadow-lg">
+          <div class="aspect-[3/4] overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=80" 
+              alt="Blonde Makeover Ivy Dubai"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              onerror="this.src='https://placehold.co/600x800/222/c5a880?text=Blonde+Balayage'"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition p-5 flex flex-col justify-end">
+            <span class="text-[10px] tracking-widest uppercase bg-[#C5A880] text-black font-bold px-2.5 py-0.5 rounded w-max mb-1">Blonde Specialist</span>
+            <h4 class="font-serif text-xl text-white font-medium">Icy Vanilla Cream Balayage</h4>
+            <p class="text-xs text-neutral-300 mt-1">Full foil lift & bond repair by Abdul</p>
+          </div>
+        </div>
+
+        <!-- Showcase 2: Gloss Brunette -->
+        <div class="group relative rounded-2xl overflow-hidden bg-neutral-900 border border-white/10 shadow-lg">
+          <div class="aspect-[3/4] overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=700&q=80" 
+              alt="Rich Brunette Ivy Dubai"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              onerror="this.src='https://placehold.co/600x800/222/c5a880?text=Brunette+Glow'"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition p-5 flex flex-col justify-end">
+            <span class="text-[10px] tracking-widest uppercase bg-[#C5A880] text-black font-bold px-2.5 py-0.5 rounded w-max mb-1">Color Correction</span>
+            <h4 class="font-serif text-xl text-white font-medium">Honey Brown Silk Gloss</h4>
+            <p class="text-xs text-neutral-300 mt-1">Multi-tonal dimension by Karolina & Charlie</p>
+          </div>
+        </div>
+
+        <!-- Showcase 3: Hollywood Waves -->
+        <div class="group relative rounded-2xl overflow-hidden bg-neutral-900 border border-white/10 shadow-lg">
+          <div class="aspect-[3/4] overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=700&q=80" 
+              alt="Hollywood Blowdry Ivy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              onerror="this.src='https://placehold.co/600x800/222/c5a880?text=Hollywood+Waves'"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition p-5 flex flex-col justify-end">
+            <span class="text-[10px] tracking-widest uppercase bg-[#C5A880] text-black font-bold px-2.5 py-0.5 rounded w-max mb-1">Styling</span>
+            <h4 class="font-serif text-xl text-white font-medium">Red Carpet Sculpted Waves</h4>
+            <p class="text-xs text-neutral-300 mt-1">Long-lasting hold for Palm West Beach events</p>
+          </div>
+        </div>
+
+        <!-- Showcase 4: Black to Caramel Blend -->
+        <div class="group relative rounded-2xl overflow-hidden bg-neutral-900 border border-white/10 shadow-lg">
+          <div class="aspect-[3/4] overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=700&q=80" 
+              alt="Natural Black to Warm Balayage"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              onerror="this.src='https://placehold.co/600x800/222/c5a880?text=Dark+Hair+Specialist'"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition p-5 flex flex-col justify-end">
+            <span class="text-[10px] tracking-widest uppercase bg-[#C5A880] text-black font-bold px-2.5 py-0.5 rounded w-max mb-1">Dark Hair Specialist</span>
+            <h4 class="font-serif text-xl text-white font-medium">Warm Caramel Balayage</h4>
+            <p class="text-xs text-neutral-300 mt-1">Safe lifting on natural dark hair by Sihan</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Languages Spoken Banner (from business profile) -->
+      <div class="mt-12 bg-white/5 rounded-2xl p-6 border border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-full bg-[#C5A880]/20 flex items-center justify-center text-[#C5A880] text-xl">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-xl text-white font-medium">International Salon Team — "We Speak Your Language"</h4>
+            <p class="text-xs text-neutral-400">English, Russian, French, Arabic, Turkish, Spanish, Portuguese & more.</p>
+          </div>
+        </div>
+        <button onclick="openBookingModal()" class="px-6 py-2.5 rounded-full text-xs uppercase tracking-widest font-semibold border border-[#C5A880] text-[#E8D8C3] hover:bg-white/10 transition">
+          Book With Preferred Stylist
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-20 bg-[#FAF7F2]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-100 text-amber-900 text-xs font-semibold mb-3">
+          <i class="fas fa-star text-amber-500"></i>
+          <span>4.8 Rating Across 2,990+ Google Reviews</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-5xl text-neutral-900 font-normal">Loved By Dubai’s Discerning Clients</h2>
+        <div class="w-16 h-0.5 bg-[#C5A880] mx-auto mt-4 mb-4"></div>
+        <p class="text-neutral-600 text-sm sm:text-base">
+          Read genuine reviews from guests at our Marriott Resort Palm Jumeirah and resort salons.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Review 1 (Harmony Bodo) -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-[#C5A880]/20 shadow-md flex flex-col justify-between hover:-translate-y-1 transition duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-amber-400 gap-1 text-sm">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="text-neutral-400 text-xs"><i class="fab fa-google text-neutral-400 mr-1"></i>Google Verified</span>
+            </div>
+            <p class="text-neutral-700 text-sm italic leading-relaxed">
+              "Had a fantastic experience at Ivy beauty and bubbles. Abdul is fantastic and very skilled at what he does. Thank you for the beautiful finish and for making my experience at the salon such a lovely one. I enjoyed the complimentary coffee!"
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#C5A880] flex items-center justify-center font-bold text-neutral-800 text-sm">
+              HB
+            </div>
+            <div>
+              <h5 class="text-sm font-semibold text-neutral-900">Harmony Bodo</h5>
+              <p class="text-xs text-neutral-400">Local Guide • 55 reviews</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 (Dilare) -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-[#C5A880]/20 shadow-md flex flex-col justify-between hover:-translate-y-1 transition duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-amber-400 gap-1 text-sm">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="text-neutral-400 text-xs"><i class="fab fa-google text-neutral-400 mr-1"></i>Google Verified</span>
+            </div>
+            <p class="text-neutral-700 text-sm italic leading-relaxed">
+              "Sihan is the best hair color professional. I have black natural hair, I was so scared to have orange result. Sihan let me had the color I want ;) All things done in 3 hours, I have very long hair, I’m happy with the result and time!"
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#C5A880] flex items-center justify-center font-bold text-neutral-800 text-sm">
+              D
+            </div>
+            <div>
+              <h5 class="text-sm font-semibold text-neutral-900">Dilare</h5>
+              <p class="text-xs text-neutral-400">Local Guide • 26 reviews</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 (Charlie & Karolina fan) -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-[#C5A880]/20 shadow-md flex flex-col justify-between hover:-translate-y-1 transition duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-amber-400 gap-1 text-sm">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <span class="text-neutral-400 text-xs"><i class="fab fa-google text-neutral-400 mr-1"></i>Google Verified</span>
+            </div>
+            <p class="text-neutral-700 text-sm italic leading-relaxed">
+              "Thank you Charlie and Karolina ❤️ this is the exact honey brown I wanted for over a year! Welcoming staff, proper consultation, and the Palm West Beach location is stunning and relaxing."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#C5A880] flex items-center justify-center font-bold text-neutral-800 text-sm">
+              TG
+            </div>
+            <div>
+              <h5 class="text-sm font-semibold text-neutral-900">Trupti Garad</h5>
+              <p class="text-xs text-neutral-400">Verified Client • Palm Resort</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trust Badges Bar -->
+      <div class="mt-12 text-center">
+        <a href="https://maps.google.com/?cid=Ivy+The+Palm+Beauty+Bubbles" target="_blank" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#9F7F53] hover:text-neutral-900 transition">
+          <i class="fab fa-google"></i>
+          <span>View all 2,990+ Google Reviews on Google Maps</span>
+          <i class="fas fa-arrow-up-right-from-square text-[10px]"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="locations" class="py-20 bg-neutral-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-[#C5A880] uppercase tracking-[0.25em] text-xs font-semibold">Resort Destinations</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-white font-normal">Our 3 Prime Dubai Locations</h2>
+        <div class="w-16 h-0.5 bg-[#C5A880] mx-auto mt-4 mb-4"></div>
+        <p class="text-neutral-400 text-sm">
+          Visit us at prestigious luxury resorts across Dubai. Palm West Beach location offers late evening service up to midnight.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Location 1: Palm West Beach (Marriott) -->
+        <div class="bg-[#181615] rounded-3xl p-6 sm:p-8 border-2 border-[#C5A880]/60 shadow-xl flex flex-col justify-between relative group hover:border-[#C5A880] transition">
+          <div class="absolute -top-3.5 left-8 bg-[#C5A880] text-neutral-950 text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+            Flagship • Open till 12 AM
+          </div>
+          <div>
+            <h3 class="font-serif text-2xl text-white font-normal mt-2">Ivy The Palm</h3>
+            <p class="text-xs text-[#C5A880] uppercase tracking-wider mt-1">Marriott Resort Palm Jumeirah</p>
+            
+            <div class="mt-6 space-y-3 text-xs text-neutral-300">
+              <div class="flex items-start gap-2.5">
+                <i class="fas fa-map-marker-alt text-[#C5A880] mt-0.5"></i>
+                <span>Palm West Beach - Marriott Resort, Road Nakhlat Jumeirah - Dubai</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-clock text-emerald-400"></i>
+                <span class="text-white font-medium">Daily: 10:00 AM – 12:00 AM (Midnight)</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-phone-alt text-[#C5A880]"></i>
+                <a href="tel:+971527434416" class="hover:text-white transition">+971 52 743 4416</a>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-parking text-[#C5A880]"></i>
+                <span>Complimentary Valet Parking at Marriott</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-white/10 flex gap-2">
+            <a href="https://maps.google.com/?q=Ivy+The+Palm+Beauty+and+Bubbles" target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold transition">
+              <i class="fas fa-directions mr-1"></i> Directions
+            </a>
+            <a href="https://wa.me/971527434416?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Ivy%20The%20Palm%20(Marriott%20Resort)." target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-[#C5A880] text-neutral-900 hover:bg-[#d8bc97] text-xs font-semibold transition">
+              <i class="fab fa-whatsapp mr-1"></i> Book Palm
+            </a>
+          </div>
+        </div>
+
+        <!-- Location 2: Nikki Beach Resort & Spa -->
+        <div class="bg-[#181615] rounded-3xl p-6 sm:p-8 border border-white/10 shadow-lg flex flex-col justify-between group hover:border-[#C5A880]/50 transition">
+          <div>
+            <h3 class="font-serif text-2xl text-white font-normal">Nikki Beach Resort & Spa</h3>
+            <p class="text-xs text-[#C5A880] uppercase tracking-wider mt-1">Pearl Jumeirah</p>
+            
+            <div class="mt-6 space-y-3 text-xs text-neutral-300">
+              <div class="flex items-start gap-2.5">
+                <i class="fas fa-map-marker-alt text-[#C5A880] mt-0.5"></i>
+                <span>Nikki Beach Resort & Spa Dubai, Pearl Jumeirah Island</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-clock text-neutral-400"></i>
+                <span>Daily: 10:00 AM – 9:00 PM</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-phone-alt text-[#C5A880]"></i>
+                <a href="tel:+971527434416" class="hover:text-white transition">+971 52 743 4416</a>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-umbrella-beach text-[#C5A880]"></i>
+                <span>Beachfront Glam & Styling Lounge</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-white/10 flex gap-2">
+            <a href="https://maps.google.com/?q=Nikki+Beach+Resort+Spa+Dubai" target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold transition">
+              <i class="fas fa-directions mr-1"></i> Directions
+            </a>
+            <a href="https://wa.me/971527434416?text=Hi%2C%20I%20would%20like%20to%20book%20at%20Nikki%20Beach%20Ivy%20Salon." target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-white/10 hover:bg-white/20 text-[#E8D8C3] text-xs font-semibold transition">
+              <i class="fab fa-whatsapp mr-1"></i> Book Nikki
+            </a>
+          </div>
+        </div>
+
+        <!-- Location 3: Sheraton Grand Hotel -->
+        <div class="bg-[#181615] rounded-3xl p-6 sm:p-8 border border-white/10 shadow-lg flex flex-col justify-between group hover:border-[#C5A880]/50 transition">
+          <div>
+            <h3 class="font-serif text-2xl text-white font-normal">Sheraton Grand Hotel</h3>
+            <p class="text-xs text-[#C5A880] uppercase tracking-wider mt-1">Sheikh Zayed Road</p>
+            
+            <div class="mt-6 space-y-3 text-xs text-neutral-300">
+              <div class="flex items-start gap-2.5">
+                <i class="fas fa-map-marker-alt text-[#C5A880] mt-0.5"></i>
+                <span>Sheraton Grand Hotel, Sheikh Zayed Road, Trade Centre 1, Dubai</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-clock text-neutral-400"></i>
+                <span>Daily: 10:00 AM – 10:00 PM</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-phone-alt text-[#C5A880]"></i>
+                <a href="tel:+971527434416" class="hover:text-white transition">+971 52 743 4416</a>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i class="fas fa-building text-[#C5A880]"></i>
+                <span>Central Downtown & DIFC Access</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-white/10 flex gap-2">
+            <a href="https://maps.google.com/?q=Sheraton+Grand+Hotel+Dubai" target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold transition">
+              <i class="fas fa-directions mr-1"></i> Directions
+            </a>
+            <a href="https://wa.me/971527434416?text=Hi%2C%20I%20would%20like%20to%20book%20at%20Sheraton%20Grand%20Ivy%20Salon." target="_blank" class="flex-1 py-2.5 text-center rounded-xl bg-white/10 hover:bg-white/20 text-[#E8D8C3] text-xs font-semibold transition">
+              <i class="fab fa-whatsapp mr-1"></i> Book Sheraton
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-neutral-400 text-xs py-12 border-t border-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-neutral-800">
+        <!-- Col 1 -->
+        <div class="md:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full border border-[#C5A880] flex items-center justify-center bg-neutral-900">
+              <span class="text-[#C5A880] font-serif font-bold text-xs">IVY</span>
+            </div>
+            <span class="font-serif text-xl tracking-widest text-white uppercase">Ivy Beauty & Bubbles Dubai</span>
+          </div>
+          <p class="max-w-md text-neutral-400 text-xs leading-relaxed">
+            Premier resort-destination salon providing world-class Balayage, Blonde tailoring, precision haircuts and restorative treatments in Dubai. Also coming soon to Miami, USA.
+          </p>
+          <div class="flex space-x-4 pt-2">
+            <a href="https://instagram.com/ivybeautyandbubbles_dubai" target="_blank" class="w-8 h-8 rounded-full bg-neutral-900 border border-neutral-700 flex items-center justify-center text-[#C5A880] hover:text-white hover:border-[#C5A880] transition">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/971527434416" target="_blank" class="w-8 h-8 rounded-full bg-neutral-900 border border-neutral-700 flex items-center justify-center text-[#C5A880] hover:text-white hover:border-[#C5A880] transition">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://maps.google.com/?cid=Ivy+The+Palm+Beauty+Bubbles" target="_blank" class="w-8 h-8 rounded-full bg-neutral-900 border border-neutral-700 flex items-center justify-center text-[#C5A880] hover:text-white hover:border-[#C5A880] transition">
+              <i class="fab fa-google"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div>
+          <h5 class="text-white uppercase tracking-widest text-[11px] font-semibold mb-3">Quick Navigation</h5>
+          <ul class="space-y-2">
+            <li><a href="#signature" class="hover:text-[#C5A880] transition">599 AED Signature Package</a></li>
+            <li><a href="#services" class="hover:text-[#C5A880] transition">Services & Price List</a></li>
+            <li><a href="#transformations" class="hover:text-[#C5A880] transition">Before & After Makeovers</a></li>
+            <li><a href="#reviews" class="hover:text-[#C5A880] transition">Google Reviews (4.8 ★)</a></li>
+            <li><a href="#locations" class="hover:text-[#C5A880] transition">Resort Locations & Valet</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div>
+          <h5 class="text-white uppercase tracking-widest text-[11px] font-semibold mb-3">Direct Concierge</h5>
+          <p class="text-neutral-400 mb-2">WhatsApp / Phone:</p>
+          <p class="text-white font-medium text-sm mb-3">+971 52 743 4416</p>
+          <p class="text-neutral-400">Palm West Beach Branch:</p>
+          <p class="text-emerald-400 font-medium">Open Daily until 12:00 AM</p>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-neutral-500 text-[11px]">
+        <p>&copy; 2026 Ivy Beauty & Bubbles Dubai. All rights reserved.</p>
+        <p class="mt-2 sm:mt-0">Marriott Resort Palm Jumeirah • Nikki Beach • Sheraton Grand</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="bookingModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300">
+    <div class="bg-[#181615] text-white w-full max-w-lg rounded-3xl border border-[#C5A880]/40 shadow-2xl p-6 sm:p-8 relative max-h-[92vh] overflow-y-auto">
+      
+      <!-- Close Button -->
+      <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-neutral-400 hover:text-white p-2">
+        <i class="fas fa-times text-lg"></i>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="text-center mb-6">
+        <span class="text-[#C5A880] uppercase tracking-[0.25em] text-[10px] font-semibold">Reserve Your Luxury Appointment</span>
+        <h3 class="font-serif text-2xl sm:text-3xl text-white font-normal mt-1">Ivy Beauty & Bubbles</h3>
+        <p class="text-neutral-400 text-xs mt-1">Direct instant booking via WhatsApp concierge</p>
+      </div>
+
+      <!-- Booking Form -->
+      <form id="appointmentForm" onsubmit="handleBookingSubmit(event)" class="space-y-4">
+        
+        <!-- Branch Selection -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Select Location</label>
+          <select id="modalBranch" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-[#C5A880]" required>
+            <option value="Palm West Beach (Marriott Resort)">Palm West Beach - Marriott Resort (Open till 12 AM)</option>
+            <option value="Nikki Beach Resort & Spa">Nikki Beach Resort & Spa (Pearl Jumeirah)</option>
+            <option value="Sheraton Grand Hotel">Sheraton Grand Hotel (Sheikh Zayed Road)</option>
+          </select>
+        </div>
+
+        <!-- Service Selection -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Desired Service / Package</label>
+          <select id="modalService" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-[#C5A880]" required>
+            <option value="599 AED Bestseller Package">🌟 599 AED Bestseller Package (Color + Treatment + Cut + Blowdry)</option>
+            <option value="Custom Balayage & French Gloss">Custom Balayage & French Gloss (From 750 AED)</option>
+            <option value="Nordic Blonde & Platinum Baby Lights">Nordic Blonde & Platinum Baby Lights (From 650 AED)</option>
+            <option value="Honey Brown & Mocha Gloss Tint">Honey Brown & Mocha Gloss Tint (From 490 AED)</option>
+            <option value="Senior Stylist Haircut & Blowout">Senior Stylist Haircut & Blowout (280 AED)</option>
+            <option value="Hollywood Waves & Bubbles">Hollywood Waves & Bubbles Styling (220 AED)</option>
+            <option value="Caviar Infusion & Botox Gloss">Caviar Infusion & Botox Gloss Treatment (From 450 AED)</option>
+            <option value="Free Consultation & Scalp Diagnosis">In-Person Hair Consultation (Complimentary)</option>
+          </select>
+        </div>
+
+        <!-- Date & Time Row -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Preferred Date</label>
+            <input type="date" id="modalDate" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-[#C5A880]" required />
+          </div>
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Preferred Time</label>
+            <select id="modalTime" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-[#C5A880]" required>
+              <option value="Morning (10:00 AM - 1:00 PM)">Morning (10:00 AM - 1:00 PM)</option>
+              <option value="Afternoon (1:00 PM - 5:00 PM)">Afternoon (1:00 PM - 5:00 PM)</option>
+              <option value="Evening (5:00 PM - 8:00 PM)">Evening (5:00 PM - 8:00 PM)</option>
+              <option value="Night (8:00 PM - 11:30 PM - Palm Only)">Night (8:00 PM - 11:30 PM - Palm Only)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Stylist Preference -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Stylist Preference (Optional)</label>
+          <select id="modalStylist" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-[#C5A880]">
+            <option value="First Available Master Stylist">Any Master Stylist (First Available)</option>
+            <option value="Abdul (Senior Master Colorist)">Abdul (Senior Master Colorist)</option>
+            <option value="Sihan (Dark Hair & Blonde Expert)">Sihan (Dark Hair & Blonde Specialist)</option>
+            <option value="Charlie & Karolina (Color Specialists)">Charlie & Karolina (Color Specialists)</option>
+          </select>
+        </div>
+
+        <!-- Name & Phone -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">Your Full Name</label>
+            <input type="text" id="modalName" placeholder="e.g. Sarah Jenkins" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-[#C5A880]" required />
+          </div>
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-neutral-300 mb-1.5 font-medium">WhatsApp / Mobile</label>
+            <input type="tel" id="modalPhone" placeholder="+971 50 000 0000" class="w-full bg-[#24211F] border border-neutral-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-[#C5A880]" required />
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full mt-4 py-3.5 rounded-full bg-gradient-to-r from-[#C5A880] to-[#9F7F53] text-neutral-900 font-semibold text-xs uppercase tracking-[0.18em] hover:brightness-110 transition shadow-lg flex items-center justify-center gap-2">
+          <i class="fab fa-whatsapp text-sm"></i>
+          <span>Confirm on WhatsApp Concierge</span>
+        </button>
+      </form>
+
+      <p class="text-[10px] text-center text-neutral-400 mt-4">
+        Our concierge will instantly confirm slot availability & prepare your welcome bubbles.
+      </p>
+    </div>
+  </div>
+
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end">
+    
+    <!-- Quick Action Popover Bubble -->
+    <div id="waPopover" class="mb-3 hidden bg-white text-neutral-900 rounded-2xl p-4 shadow-2xl border border-[#C5A880]/30 w-72 transform origin-bottom-right transition-all duration-300">
+      <div class="flex items-center justify-between border-b pb-2 mb-2">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+          <span class="text-xs font-bold uppercase tracking-wider text-[#9F7F53]">Ivy Salon Concierge</span>
+        </div>
+        <button onclick="toggleWaPopover()" class="text-neutral-400 hover:text-neutral-700 text-xs">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <p class="text-xs text-neutral-600 mb-3">Hi! ✨ Looking to book the 599 AED package or schedule a color consultation?</p>
+      <div class="space-y-1.5 text-xs">
+        <a href="https://wa.me/971527434416?text=Hi%20Ivy%20Dubai%2C%20I%20want%20to%20book%20the%20599%20AED%20Package." target="_blank" class="block p-2 bg-[#FAF7F2] hover:bg-[#E8D8C3]/40 rounded-lg text-neutral-800 font-medium transition">
+          👑 Book 599 AED Package
+        </a>
+        <a href="https://wa.me/971527434416?text=Hi%20Ivy%20Dubai%2C%20I%20have%20questions%20about%20hair%20coloring%20or%20balayage." target="_blank" class="block p-2 bg-[#FAF7F2] hover:bg-[#E8D8C3]/40 rounded-lg text-neutral-800 font-medium transition">
+          🎨 Balayage Consultation
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating Trigger -->
+    <button 
+      onclick="toggleWaPopover()" 
+      class="group flex items-center gap-2 bg-[#25D366] text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl hover:bg-[#20ba59] transition transform hover:scale-105"
+      aria-label="Contact WhatsApp">
+      <i class="fab fa-whatsapp text-2xl"></i>
+      <span class="hidden sm:inline font-semibold text-xs tracking-wider uppercase">Book via WhatsApp</span>
+    </button>
+  </div>
+
+  <script>
+    // Set default date in modal to tomorrow
+    window.addEventListener('DOMContentLoaded', () => {
+      const tomorrow = new Date();
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      const dateInput = document.getElementById('modalDate');
+      if (dateInput) {
+        dateInput.value = tomorrow.toISOString().split('T')[0];
+      }
+    });
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const icon = document.getElementById('menuIcon');
+      menu.classList.toggle('hidden');
+      if (menu.classList.contains('hidden')) {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      }
+    }
+
+    // Services Filter Function
+    function filterServices(category) {
+      const cards = document.querySelectorAll('.service-card');
+      const buttons = document.querySelectorAll('#serviceTabs .tab-btn');
+
+      // Update button styling
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-category') === category) {
+          btn.classList.add('bg-[#C5A880]', 'text-neutral-900', 'border-[#C5A880]');
+          btn.classList.remove('border-neutral-300', 'text-neutral-600');
+        } else {
+          btn.classList.remove('bg-[#C5A880]', 'text-neutral-900', 'border-[#C5A880]');
+          btn.classList.add('border-neutral-300', 'text-neutral-600');
+        }
+      });
+
+      // Filter cards
+      cards.forEach(card => {
+        const itemCat = card.getAttribute('data-cat');
+        if (category === 'all' || itemCat === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Modal Controllers
+    const bookingModal = document.getElementById('bookingModal');
+
+    function openBookingModal() {
+      bookingModal.classList.remove('hidden');
+      setTimeout(() => {
+        bookingModal.classList.remove('opacity-0');
+      }, 10);
+    }
+
+    function closeBookingModal() {
+      bookingModal.classList.add('opacity-0');
+      setTimeout(() => {
+        bookingModal.classList.add('hidden');
+      }, 300);
+    }
+
+    // Close on backdrop click
+    bookingModal.addEventListener('click', (e) => {
+      if (e.target === bookingModal) {
+        closeBookingModal();
+      }
+    });
+
+    // Quick Book helper from service card
+    function bookSpecificService(serviceName, price) {
+      const serviceSelect = document.getElementById('modalService');
+      
+      // Look if option exists, otherwise create or select first
+      let found = false;
+      for (let i = 0; i < serviceSelect.options.length; i++) {
+        if (serviceSelect.options[i].text.includes(serviceName) || serviceSelect.options[i].value.includes(serviceName)) {
+          serviceSelect.selectedIndex = i;
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        const newOpt = new Option(`${serviceName} (${price})`, serviceName, true, true);
+        serviceSelect.add(newOpt);
+      }
+      openBookingModal();
+    }
+
+    function quickSelectPackage(packageName) {
+      const serviceSelect = document.getElementById('modalService');
+      for (let i = 0; i < serviceSelect.options.length; i++) {
+        if (serviceSelect.options[i].value.includes(packageName) || serviceSelect.options[i].text.includes(packageName)) {
+          serviceSelect.selectedIndex = i;
+          break;
+        }
+      }
+      openBookingModal();
+    }
+
+    // Handle form submit and redirect to WhatsApp prefilled message
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      
+      const branch = document.getElementById('modalBranch').value;
+      const service = document.getElementById('modalService').value;
+      const date = document.getElementById('modalDate').value;
+      const time = document.getElementById('modalTime').value;
+      const stylist = document.getElementById('modalStylist').value;
+      const name = document.getElementById('modalName').value;
+      const phone = document.getElementById('modalPhone').value;
+
+      const message = `Hello Ivy Beauty & Bubbles Dubai! ✨%0A%0AI would like to request an appointment:%0A• Name: ${encodeURIComponent(name)}%0A• Phone: ${encodeURIComponent(phone)}%0A• Branch: ${encodeURIComponent(branch)}%0A• Service: ${encodeURIComponent(service)}%0A• Date: ${encodeURIComponent(date)}%0A• Time: ${encodeURIComponent(time)}%0A• Stylist Preference: ${encodeURIComponent(stylist)}%0A%0APlease confirm availability for me!`;
+
+      // WhatsApp redirection
+      const whatsappUrl = `https://wa.me/971527434416?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+      closeBookingModal();
+    }
+
+    // Toggle WhatsApp popover
+    function toggleWaPopover() {
+      const popover = document.getElementById('waPopover');
+      popover.classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>
